@@ -1,0 +1,22 @@
+.Chat_box{
+    width:100%;height:100%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chat_centerbox{
+    width:80%;
+    height:40%;
+    padding: 4%;
+    background-color: #fff;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+.chat_centerbox p{width:100%;text-align: center;margin:2% 0;color:#7c7272}
+.chat_centerbox img{
+    width:30%;
+    border-radius:50%;
+}

@@ -1,0 +1,15 @@
+.youLike{
+    padding:4% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.youLike .youLike_left{
+    width:75%;
+    display: flex;
+}
+.youLike .youLike_left .content_box{
+    width:100%;
+    margin-left:4%;
+}
+.youLike .youLike_left .content_box p{color: #7c7272;width:100%;}

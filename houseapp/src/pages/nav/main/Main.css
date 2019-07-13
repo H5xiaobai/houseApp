@@ -1,0 +1,61 @@
+.main_box_head{
+    height:50px;
+    background-color: #108ee9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main_box_head .main_head_center{
+    width:70%;
+    height:30px;
+    color:#ccc;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.main_box_head >label{color: #f1f1f1;}
+.main_box_head .main_head_center img{
+    width:20px;
+    height:20px;
+}
+.main_box_head img{
+    width:20px;
+    height:20px;
+}
+
+/* 轮播图 */
+.slider .slider-frame .slider-list .slider-slide img{height:100%}
+
+/* 房产百科 */
+.house_box{
+    height:20px;
+    background-color: #ccc;
+}
+.sub-title{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding:0 5%;
+}
+.sub-title h3{font-size:14px;color: #108ee9; }
+.sub-title label{font-size: 12px;color: #ccc;margin-left: 20px;}
+
+/* 猜你喜欢 */
+.youLike{
+    /* height:40%; */
+    padding:4% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.youLike .youLike_left{
+    width:78%;
+    display: flex;
+    align-items: center;
+}
+.youLike .youLike_left .content_box{
+    width:100%;
+    margin-left:4%;
+}
+.youLike .youLike_left .content_box p{color: #7c7272;width:100%;}
